@@ -1,0 +1,46 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+body::after {
+    content: "";
+    background: url(giraffe-background.jpeg);
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    border: black solid 0.1px;
+    padding: 5px;
+    background-color:rgba(116, 229, 233, 0.5);
+}
+
+.button:hover {
+    background-color: aqua;
+}
+
+.button:active {
+    color: red;
+}
+
+.btn {
+    margin-left: 40%;
+    margin-right:40%;
+}
+
+.image {
+    margin-left:25%;
+    margin-right: 50%;
+    padding-bottom: 20px;
+}
